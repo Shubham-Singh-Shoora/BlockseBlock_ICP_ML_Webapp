@@ -1,0 +1,10 @@
+cat <<EOL > requirements.txt
+Flask
+pandas
+scikit-learn
+numpy
+seaborn
+nltk
+matplotlib
+regex
+EOL

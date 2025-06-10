@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+        main {
+            display: grid;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            
+
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .incident-card-main {
+            
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            
+            
+        
+        }
+        .incident-card-main span {
+            display: grid;
+            
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            margin-top: 20px;
+        }
+        .incident-card-main p:first-child {
+            font-size: 2em;
+            font-family: Arial, sans-serif;
+            color: #333;
+            font-family: "Oswald", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-stretch: normal;
+            font-style: normal;
+            text-align: center;
+            
+        }
+        .login-register {
+            width: 100%;
+            
+            padding-left: 200px;
+            
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+        }
+         .login-register input[type="button"] {
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 10px 20px;
+            margin-left: auto;
+            align-self: center;
+            justify-self: center;
+        }
+        .login-register input[type="button"]:hover {
+            background-color: #555;
+            scale: 1.05;
+        }
+
+        h1 {
+            font-size: 2em;
+            font-family: Arial, sans-serif;
+        }
+
+        .incident-card {
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            display: flex;
+        }
+
+        .incident-card img {
+            width: 150px;
+            height: 150px;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+
+        .incident-card p {
+            font-size: 1.2em;
+            font-family: Arial, sans-serif;
+            color: #333;
+            font-family: "Oswald", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-stretch: normal;
+            font-style: normal;
+        }
+        .check-news {
+            text-align: center;
+            margin-top: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            height: 100px;
+            position: relative;
+            
+            
+            
+        }
+        .check-news input {
+            padding: 10px;
+            margin: 0px;
+            background-color: #333;
+            color: white;
+            height: 100%;
+            
+        }
+        .check-news input[type="text"] {
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 0px;
+        
+        }
+        .check-news input[type="text"]:focus {
+            outline: none;
+            border-color: #333;
+        }
+        
+        .check-news input[type="submit"] {
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .check-news input[type="submit"]:hover {
+            background-color: #555;
+            scale: 1.05;
+        }
+
+        .check-news form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        @media screen and (max-width: 768px) {
+            .incident-card-main span {
+                grid-template-columns: 1fr;
+            }
+            .incident-card {
+                max-width: 100%;
+            }
+            .check-news input[type="text"] {
+                width: 100%;
+                
+            }
+            
+        }
