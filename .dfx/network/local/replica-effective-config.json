@@ -1,20 +1,20 @@
 {
-  "replica_rev": "f6f5e0927d14886e4bd67f776ee889f31cec2364",
+  "replica_rev": "f195ba756bc3bf170a2888699e5e74101fdac6ba",
   "effective_canister_id": "uqqxf-5h777-77774-qaaaa-cai",
   "type": "pocket_ic",
   "config": {
     "http_handler": {
       "port": null,
-      "write_port_to": "/home/manish/ICP_PROJECT/icp_hacktheblock_fakenews/.dfx/network/local/replica-configuration/replica-1.port"
+      "write_port_to": null
     },
     "state_manager": {
-      "state_root": "/home/manish/ICP_PROJECT/icp_hacktheblock_fakenews/.dfx/network/local/state/replicated_state"
+      "state_root": "/mnt/d/BlockDev/BlockseBlock_project/icp_hacktheblock_fakenews/.dfx/network/local/state/replicated_state"
     },
     "crypto": {
-      "crypto_root": "/home/manish/ICP_PROJECT/icp_hacktheblock_fakenews/.dfx/network/local/state/crypto_store"
+      "crypto_root": "/mnt/d/BlockDev/BlockseBlock_project/icp_hacktheblock_fakenews/.dfx/network/local/state/crypto_store"
     },
     "artifact_pool": {
-      "consensus_pool_path": "/home/manish/ICP_PROJECT/icp_hacktheblock_fakenews/.dfx/network/local/state/consensus_pool"
+      "consensus_pool_path": "/mnt/d/BlockDev/BlockseBlock_project/icp_hacktheblock_fakenews/.dfx/network/local/state/consensus_pool"
     },
     "subnet_type": "application",
     "btc_adapter": {
@@ -23,7 +23,7 @@
     },
     "canister_http_adapter": {
       "enabled": true,
-      "socket_path": "/tmp/ic-https-outcalls-adapter-socket.67935.1748417571"
+      "socket_path": null
     },
     "log_level": "error",
     "artificial_delay": 600
